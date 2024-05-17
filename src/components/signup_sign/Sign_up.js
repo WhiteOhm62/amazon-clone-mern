@@ -65,7 +65,7 @@ const Sign_up = () => {
         }
 
 
-        const res = await fetch("register", {
+        const res = await fetch("https://d-parinda-backend.onrender.com/register", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

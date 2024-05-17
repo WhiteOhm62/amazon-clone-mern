@@ -28,7 +28,7 @@ const Cart = () => {
     const [inddata, setIndedata] = useState("");
 
     const getinddata = async () => {
-        const res = await fetch(`/getproductsone/${id}`, {
+        const res = await fetch(`https://d-parinda-backend.onrender.com/getproductsone/${id}`, {
             method: "GET",
             headers: {
                 Accept: "application/json",
@@ -54,7 +54,7 @@ const Cart = () => {
     //cart functionality
 
     const addtocart = async (id) => {
-        const check = await fetch(`/addcart/${id}`, {
+        const check = await fetch(`https://d-parinda-backend.onrender.com/addcart/${id}`, {
             method: "POST",
             headers: {
                 Accept: "application/json",

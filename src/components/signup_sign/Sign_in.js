@@ -37,7 +37,7 @@ const Sign_in = () => {
 
 
 
-        const res = await fetch("/login", {
+        const res = await fetch("https://d-parinda-backend.onrender.com/login", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
