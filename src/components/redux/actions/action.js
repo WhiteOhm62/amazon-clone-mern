@@ -1,7 +1,7 @@
 
 export const getProducts = () => async (dispatch) => {
     try {
-        const data = await fetch("/getproducts", {
+        const data = await fetch("https://d-parinda-backend.onrender.com/getproducts", {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
