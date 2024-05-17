@@ -34,7 +34,7 @@ const Cart = () => {
                 Accept: "application/json",
                 "Content-Type": "application/json"
             },
-            credentials: "include"
+            // credentials: "include"
         });
 
         const data = await res.json();
@@ -63,7 +63,7 @@ const Cart = () => {
             body: JSON.stringify({
                 inddata
             }),
-            credentials: "include"
+            // credentials: "include"
         });
 
         const data1 = await check.json();
